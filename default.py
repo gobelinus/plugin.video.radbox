@@ -10,7 +10,7 @@ from BeautifulSoup import BeautifulStoneSoup
 
 # plugin constants
 plugin_handle = int(sys.argv[1])
-plugin_id = 'plugin.video.radbox.me'
+plugin_id = 'plugin.video.radbox'
 plugin_settings = xbmcaddon.Addon(id=plugin_id)
 
 #constansts for supported services
