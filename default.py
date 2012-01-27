@@ -119,11 +119,11 @@ def get_list_item(title='', thumbnail='', plot='', url='', is_folder=False, is_v
     icon_image="DefaultFolder.png"
     if is_video:
         icon_imgae = "DefaultVideo.png"
-        params = {'action': 'play_video', 'vid': vid, 'vidurl' : url}
+        #params = {'action': 'play_video', 'vid': vid, 'vidurl' : url}
+        liurl =  url
     else:
         params = {'action': 'play_list', 'plist': title}
-
-    liurl =  sys.argv[0] + '?' + urllib.urlencode(params)
+        liurl =  sys.argv[0] + '?' + urllib.urlencode(params)
 
     try:
         listitem = xbmcgui.ListItem(label=title, iconImage=icon_image, thumbnailImage=thumbnail)
