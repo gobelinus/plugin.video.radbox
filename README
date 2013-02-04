@@ -4,4 +4,4 @@ INSTALL
 
 The add-on is not yet available in the official XBMC repository.
 
-If you want to install manually, download the latest zip file from https://github.com/tarora/plugin.video.radbox/downloads and install via XBMC -> System -> Add-ons -> Install from zip file OR move the plugin.video.radbox directory into your addons directory. 
+If you want to install manually, download the latest zip file from https://github.com/gobelinus/plugin.video.radbox/downloads and install via XBMC -> System -> Add-ons -> Install from zip file OR move the plugin.video.radbox directory into your addons directory. 
